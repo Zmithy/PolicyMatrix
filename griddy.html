@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Site</title>
+    <title>Policy Matrix Site</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
@@ -42,22 +42,22 @@
             These categories are toggled active by clicking. The active tab is shown is then controlled by the Inner Navbar
          -->
         <nav>
-            <div class="navbar-brand">Matrix</a></div>
+            <div class="navbar-brand">Policy Matrix - <i>BETA</i></div>
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Cityville</button>
+                <button class="nav-link active" id="nav-Louisa-tab" data-bs-toggle="tab" data-bs-target="#nav-Louisa"
+                    type="button" role="tab" aria-controls="nav-Louisa" aria-selected="true">Louisa</button>
 
-                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="true">Townshipton</button>
+                <button class="nav-link" id="nav-Albemarle-tab" data-bs-toggle="tab" data-bs-target="#nav-Albemarle"
+                    type="button" role="tab" aria-controls="nav-profile" aria-selected="true">Albemarle</button>
 
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact" aria-selected="true">County Creek</button>
+                <button class="nav-link" id="nav-Charlottesville-tab" data-bs-toggle="tab" data-bs-target="#nav-Charlottesville"
+                    type="button" role="tab" aria-controls="nav-contact" aria-selected="true">Charlottesville</button>
             </div>
         </nav>
 
         <div class="tab-content" id="nav-tabContent">
-            <!-- City 1 Content Panel -->
-            <div class="tab-pane show active p-3" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <!-- Louisa Content -->
+            <div class="tab-pane show active p-3" id="nav-Louisa" role="tabpanel" aria-labelledby="nav-Louisa-Content">
                 <div class="container my-5">
                     <!-- Inner Navbar -->
                     <!-- 
@@ -78,15 +78,23 @@
                             <div class="nav flex-column nav-tabs" id="nav-tab" role="tablist">
                                 <button class="nav-link active" id="nav-inner-1-1-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-inner-1-1" type="button" role="tab"
-                                    aria-controls="nav-inner-1-1" aria-selected="true">Preserve</button>
+                                    aria-controls="nav-inner-1-1" aria-selected="true">Displacement Prevention</button>
 
                                 <button class="nav-link" id="nav-inner-2-1-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-inner-2-1" type="button" role="tab"
-                                    aria-controls="nav-inner-2-1" aria-selected="true">Produce</button>
+                                    aria-controls="nav-inner-2-1" aria-selected="true">Developer Incentives</button>
 
                                 <button class="nav-link" id="nav-inner-3-1-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-inner-3-1" type="button" role="tab"
-                                    aria-controls="nav-inner-3-1" aria-selected="true">Protect</button>
+                                    aria-controls="nav-inner-3-1" aria-selected="true">Zoning</button>
+
+                                <button class="nav-link" id="nav-inner-4-1-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-inner-4-1" type="button" role="tab"
+                                    aria-controls="nav-inner-4-1" aria-selected="true">Homelessness</button>
+
+                                <button class="nav-link" id="nav-inner-5-1-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-inner-5-1" type="button" role="tab"
+                                    aria-controls="nav-inner-5-1" aria-selected="true">Preservation</button>
                             </div>
                         </div>
 
@@ -96,7 +104,7 @@
                         -->
                         <div class="col">
                             <div class="tab-content" id="nav-tabContent">
-                                <!-- Preserve Policies -->
+                                <!-- Displacement Prevention Policies -->
                                 <div class="tab-pane show active p-3" id="nav-inner-1-1" role="tabpanel"
                                     aria-labelledby="nav-inner-1-1-tab">
                                     <!-- Content Box -->
@@ -119,10 +127,11 @@
 
                                             <div class="content-item">
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="images/yes.png" class="card-img-top" alt="..."
-                                                        title="this is  a checkmark">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="..."
+                                                        title="Not yet in Policy">
+                                                        
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Right of First Refusal</h5>
+                                                        <h5 class="card-title">Anti-Displacement</h5>
                                                         <p class="card-text">Description of what this policy is and how
                                                             its implemented in the locality. Not too verbose</p>
                                                         <div class="nav nav" role="tablist">
@@ -137,9 +146,9 @@
 
                                             <div class="content-item">
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Preservation Inventory - Subsidized</h5>
+                                                        <h5 class="card-title">Aging in Place</h5>
                                                         <p class="card-text">A Different description of what policy two
                                                             is and how
                                                             its implemented in. Not overly wordy.</p>
@@ -155,9 +164,25 @@
 
                                             <div class="content-item">
                                                 <div class="card" style="width: 18rem;">
-                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Policy Three</h5>
+                                                        <h5 class="card-title">Rental Assitance</h5>
+                                                        <p class="card-text">Some quick example text to build on the
+                                                            card title and make up the bulk of
+                                                            the card's content.</p>
+                                                        <button class="btn nav-link" id="box-three-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#content-box-three"
+                                                            type="button" role="tab" aria-controls="content-box-three"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle-fill.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Property Tax Relief</h5>
                                                         <p class="card-text">Some quick example text to build on the
                                                             card title and make up the bulk of
                                                             the card's content.</p>
@@ -204,7 +229,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Produce Policies -->
+                                <!-- Developer Incentives Policies -->
                                 <div class="tab-pane p-3" id="nav-inner-2-1" role="tabpanel"
                                     aria-labelledby="nav-inner-2-1-tab">
 
@@ -216,7 +241,7 @@
                                                     <img src="images/no.png" class="card-img-top" alt="..."
                                                         title="this is  a checkmark">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Inclusionary Housing</h5>
+                                                        <h5 class="card-title">Tax Abatement / Exemption</h5>
                                                         <p class="card-text">Description of what this policy is and how
                                                             its implemented in the locality. Not too verbose</p>
                                                         <div class="nav nav" role="tablist">
@@ -234,7 +259,83 @@
                                                 <div class="card" style="width: 18rem;">
                                                     <img src="images/yes.png" class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="card-title">Housing Trust Fund</h5>
+                                                        <h5 class="card-title">Fee Waiver</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Parking Reduction / Waiver</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Fast Track Review</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Density Bonus</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Affordable Dwelling Units</h5>
                                                         <p class="card-text">A Different description of what policy two
                                                             is and how
                                                             its implemented in. Not overly wordy.</p>
@@ -277,7 +378,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Protect Policies -->
+                                <!-- Zoning Policies -->
                                 <div class="tab-pane p-3" id="nav-inner-3-1" role="tabpanel"
                                     aria-labelledby="nav-inner-3-1-tab">
 
@@ -286,7 +387,7 @@
                                             <div class="content-item">
                                                 <div class="card" style="width: 18rem;">
                                                     <div class="card-body">
-                                                        <h5>Affordable Housing Priority</h5>
+                                                        <h5>Accessory Dwelling Units</h5>
                                                         <p>Some small tidbit about what this is.</p>
                                                         <div class="nav nav" role="tablist">
                                                             <button class="btn nav-link" id="box-one-desc"
@@ -300,16 +401,172 @@
                                             <div class="content-item">
                                                 <div class="card" style="width: 18rem;">
                                                     <div class="card-body">
-                                                        <h5>Housing First</h5>
+                                                        <h5>Infill</h5>
                                                         <p>description.</p>
                                                         <button class="btn nav-link" id="box-one-desc"
-                                                                data-bs-toggle="tab" data-bs-target="#protect-box-two"
-                                                                type="button" role="tab" aria-controls="protect-box-two"
-                                                                aria-selected="true">More Info.</button>
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
                                                     </div>
 
                                                 </div>
                                             </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Short Term Rental</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            
+                                        </div>
+
+                                        <div class="container content-bottom" id="protect-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="protect-box-one"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="protect-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Homelessness Policies-->
+                                <div class="tab-pane p-3" id="nav-inner-4-1" role="tabpanel"
+                                    aria-labelledby="nav-inner-4-1-tab">
+
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="protect-box-top">
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Housing First</h5>
+                                                        <p>Some small tidbit about what this is.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#protect-box-one"
+                                                                type="button" role="tab" aria-controls="protect-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Supportive Housing</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Shelters</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            
+                                        </div>
+
+                                        <div class="container content-bottom" id="protect-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="protect-box-one"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="protect-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Preservation -->
+                                <div class="tab-pane p-3" id="nav-inner-5-1" role="tabpanel"
+                                    aria-labelledby="nav-inner-5-1-tab">
+
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="protect-box-top">
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle-fill.svg" class="card-img-top" alt="..."
+                                                    title="Not yet in Policy">
+                                                    <div class="card-body">
+                                                        <h5>Repairs and Weatherization</h5>
+                                                        <p>Some small tidbit about what this is.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#protect-box-one"
+                                                                type="button" role="tab" aria-controls="protect-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content-item">
+                                                <div class="card-nope" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="..."
+                                                    title="Not yet in Policy">
+                                                    <div class="card-body">
+                                                        <h5>Affordability Periods</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="..."
+                                                    title="Not yet in Policy">
+                                                    <div class="card-body">
+                                                        <h5>Land Trust</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            
                                         </div>
 
                                         <div class="container content-bottom" id="protect-box-bottom">
@@ -334,58 +591,543 @@
                     </div>
                 </div>
             </div>
-            <!-- End of City 1-->
-
-
-
-
-
-
-
-
-            <!-- City 2 Content Panel -->
-            <div class="tab-pane p-3" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <!-- Albemarle Content -->
+            <div class="tab-pane show p-3" id="nav-Albemarle" role="tabpanel" aria-labelledby="nav-Albemarle-Content">
                 <div class="container my-5">
+                    <!-- Inner Navbar -->
+                    <!-- 
+                            Content Panels have a sidebar selector and corresponding Content Select Displays, toggled by a button.
+                            Content Select Displays, display 
+
+                            This could represent specific groups of policies?
+                                - Example Uses: Preserve, Produce, Protect.
+
+                    -->
                     <div class="row">
+                        <!-- Sidebar -->
+                        <!--
+                            Nav tabs to display specified pane
+                            Tabs toggle activate panes in Content Box
+                        -->
                         <div class="col sidebar">
-                            <div class="nav flex-column nav-tabs" id="nav-tab" role="tablist">
-                                <button class="nav-link active" id="nav-inner-1-2-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-inner-1-2" type="button" role="tab"
-                                    aria-controls="nav-inner-1-2" aria-selected="true">One-2</button>
+                            <div class="nav flex-column nav-tabs"  role="tablist">
+                                <button class="nav-link active" id="nav-Albemarle-Displacement-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-Albemarle-Displacement" type="button" role="tab"
+                                    aria-controls="nav-Albemarle-Displacement" aria-selected="true">Displacement Prevention</button>
 
-                                <button class="nav-link" id="nav-inner-2-2-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-inner-2-2" type="button" role="tab" aria-controls="nav-inner-2"
-                                    aria-selected="true">Two-2</button>
+                                <button class="nav-link" id="nav-Albemarle-Incentives-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-Albemarle-Incentives" type="button" role="tab"
+                                    aria-controls="nav-Albemarle-Incentives" aria-selected="true">Developer Incentives</button>
 
-                                <button class="nav-link" id="nav-inner-3-2-tab" data-bs-toggle="tab"
-                                    data-bs-target="#nav-inner-3-2" type="button" role="tab" aria-controls="nav-inner-3"
-                                    aria-selected="true">Three-2</button>
+                                <button class="nav-link" id="nav-Albmarle-Zoning-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-Albemarle-Zoning" type="button" role="tab"
+                                    aria-controls="nav-inner-3-1" aria-selected="true">Zoning</button>
+
+                                <button class="nav-link" id="nav-Albemarle-Homelessness-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-Albemarle-Homelessness" type="button" role="tab"
+                                    aria-controls="nav-inner-4-1" aria-selected="true">Homelessness</button>
+
+                                <button class="nav-link" id="nav-inner-Albemarle-Preservation-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-Albemarle-Preservation" type="button" role="tab"
+                                    aria-controls="nav-inner-5-1" aria-selected="true">Preservation</button>
                             </div>
                         </div>
+
+                        <!-- Content Select Display -->
+                        <!--
+                            Displays the selected category contents in Content Box.
+                        -->
                         <div class="col">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane show active p-3" id="nav-inner-1-2" role="tabpanel"
-                                    aria-labelledby="nav-inner-1-2-tab">
-                                    <h2>One</h2>
-                                    <p>OneOneOneOneOneOneOneOneOneOne</p>
+                            <div class="tab-content" id="nav-Albermarle-tabContent">
+                                <!-- Displacement Prevention Policies -->
+                                <div class="tab-pane show active p-3" id="nav-Albemarle-Displacement" role="tabpanel"
+                                    aria-labelledby="nav-Albemarle-Displacement">
+                                    <!-- Content Box -->
+                                    <!-- 
+                                        Contains content top and a content bottom
+                                        - Here are individual policies for that section, and more in depth information about them.
+                                        - Example Uses: Right of First Refusal, Rental Assistance Demonstration etc. as a Content item, selected in top
+                                            Descriptions of those policies as the information displayed in the bottom.
+
+                                        Content Box - Top
+                                        Content top contains content items.
+                                        Content items must contain a button to toggle active information in Context Box - Bottom.
+
+                                        Content Box - Bottom
+                                        Displays a different content item based on active pane.
+                                        Pane is made active by a button in Content Box - Top
+                                    -->
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="preserve-box-top">
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="..."
+                                                        title="Not yet in Policy">
+                                                        
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Anti-Displacement</h5>
+                                                        <p class="card-text">Description of what this policy is and how
+                                                            its implemented in the locality. Not too verbose</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#content-box-one"
+                                                                type="button" role="tab" aria-controls="content-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Aging in Place</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#content-box-two"
+                                                                type="button" role="tab" aria-controls="content-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Rental Assitance</h5>
+                                                        <p class="card-text">Some quick example text to build on the
+                                                            card title and make up the bulk of
+                                                            the card's content.</p>
+                                                        <button class="btn nav-link" id="box-three-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#content-box-three"
+                                                            type="button" role="tab" aria-controls="content-box-three"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle-fill.svg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Property Tax Relief</h5>
+                                                        <p class="card-text">Some quick example text to build on the
+                                                            card title and make up the bulk of
+                                                            the card's content.</p>
+                                                        <button class="btn nav-link" id="box-three-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#content-box-three"
+                                                            type="button" role="tab" aria-controls="content-box-three"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="container content-box" id="preserve-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="content-box-one"
+                                                    role="tabpanel" aria-labelledby="box-1-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="content-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                        In depth information about policy two.
+                                                        In depth information about policy two.
+                                                        In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="content-box-three"
+                                                    role="tabpanel" aria-labelledby="box-3-desc">
+                                                    <div class="content-item">In depth information about policy three.
+                                                        In depth information about policy three.
+                                                        In depth information about policy three.
+                                                        In depth information about policy three.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="tab-pane p-3" id="nav-inner-2-2" role="tabpanel"
-                                    aria-labelledby="nav-inner-2-2-tab">
-                                    <h2>Two</h2>
-                                    <p>TwoTwoTwoTwoTwoTwoTwoTwoTwoTwo</p>
+                                <!-- Developer Incentives Policies -->
+                                <div class="tab-pane p-3" id="nav-Albemarle-Incentives" role="tabpanel"
+                                    aria-labelledby="nav-Albemarle-Incentives">
+
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="produce-box-top">
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/no.png" class="card-img-top" alt="..."
+                                                        title="this is  a checkmark">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Tax Abatement / Exemption</h5>
+                                                        <p class="card-text">Description of what this policy is and how
+                                                            its implemented in the locality. Not too verbose</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-one"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Fee Waiver</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Parking Reduction / Waiver</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Fast Track Review</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Density Bonus</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/yes.png" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Affordable Dwelling Units</h5>
+                                                        <p class="card-text">A Different description of what policy two
+                                                            is and how
+                                                            its implemented in. Not overly wordy.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-two-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#preserve-box-two"
+                                                                type="button" role="tab"
+                                                                aria-controls="preserve-box-two"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="container content-box" id="produce-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="preserve-box-one"
+                                                    role="tabpanel" aria-labelledby="box-1-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                        In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="preserve-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                        In depth information about policy two.
+                                                        In depth information about policy two.
+                                                        In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="tab-pane p-3" id="nav-inner-3-2" role="tabpanel"
-                                    aria-labelledby="nav-inner-3-2-tab">
-                                    <h2>Three</h2>
-                                    <p>ThreeThreeThreeThreeThreeThree</p>
+                                <!-- Zoning Policies -->
+                                <div class="tab-pane p-3" id="nav-Albemarle-Zoning" role="tabpanel"
+                                    aria-labelledby="nav-inner-3-1-tab">
+
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="protect-box-top">
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Accessory Dwelling Units</h5>
+                                                        <p>Some small tidbit about what this is.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#protect-box-one"
+                                                                type="button" role="tab" aria-controls="protect-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Infill</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Short Term Rental</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            
+                                        </div>
+
+                                        <div class="container content-bottom" id="protect-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="protect-box-one"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="protect-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <!-- Homelessness Policies-->
+                                <div class="tab-pane p-3" id="nav-Albemarle-Homelessness" role="tabpanel"
+                                    aria-labelledby="nav-inner-4-1-tab">
+
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="protect-box-top">
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Housing First</h5>
+                                                        <p>Some small tidbit about what this is.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#protect-box-one"
+                                                                type="button" role="tab" aria-controls="protect-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Supportive Housing</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5>Shelters</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            
+                                        </div>
+
+                                        <div class="container content-bottom" id="protect-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="protect-box-one"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="protect-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Preservation -->
+                                <div class="tab-pane p-3" id="nav-Albemarle-Preservation" role="tabpanel"
+                                    aria-labelledby="nav-inner-5-1-tab">
+
+                                    <div class="container content-wrap">
+                                        <div class="container content-box" id="protect-box-top">
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle-fill.svg" class="card-img-top" alt="..."
+                                                    title="Not yet in Policy">
+                                                    <div class="card-body">
+                                                        <h5>Repairs and Weatherization</h5>
+                                                        <p>Some small tidbit about what this is.</p>
+                                                        <div class="nav nav" role="tablist">
+                                                            <button class="btn nav-link" id="box-one-desc"
+                                                                data-bs-toggle="tab" data-bs-target="#protect-box-one"
+                                                                type="button" role="tab" aria-controls="protect-box-one"
+                                                                aria-selected="true">More Info.</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="content-item">
+                                                <div class="card-nope" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="..."
+                                                    title="Not yet in Policy">
+                                                    <div class="card-body">
+                                                        <h5>Affordability Periods</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="content-item">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="images/circle.svg" class="card-img-top" alt="..."
+                                                    title="Not yet in Policy">
+                                                    <div class="card-body">
+                                                        <h5>Land Trust</h5>
+                                                        <p>description.</p>
+                                                        <button class="btn nav-link" id="box-one-desc"
+                                                            data-bs-toggle="tab" data-bs-target="#protect-box-two"
+                                                            type="button" role="tab" aria-controls="protect-box-two"
+                                                            aria-selected="true">More Info.</button>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            
+                                        </div>
+
+                                        <div class="container content-bottom" id="protect-box-bottom">
+                                            <div class="tab-content">
+                                                <div class="tab-pane fade show active p-3" id="protect-box-one"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy one.
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade show  p-3" id="protect-box-two"
+                                                    role="tabpanel" aria-labelledby="box-2-desc">
+                                                    <div class="content-item">In depth information about policy two.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- City 3 Content Panel -->
-            <div class="tab-pane p-3" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <!-- Charlottesville Content -->
+            <div class="tab-pane p-3" id="nav-Charlottesville" role="tabpanel" aria-labelledby="nav-Charlottesville-Content">
                 <div class="container my-5">
                     <div class="row">
                         <div class="col sidebar">
@@ -429,7 +1171,7 @@
     </div>
     <hr>
 
-    
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var buttons = document.querySelectorAll('.btn.nav-link');

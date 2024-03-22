@@ -60,6 +60,11 @@
     object-fit: contain;
 }
 
+
 .card {
     width: fit-content;
+}
+
+.card-nope {
+    background-color: goldenrod;
 }
